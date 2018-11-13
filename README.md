@@ -1,2 +1,2 @@
 # spring-pet-clinic
-SFG Pet Clinic
+Pet clinic spring tutorial with Udemy fg mooc
