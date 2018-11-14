@@ -4,7 +4,7 @@
 
     <groupId>guru.springframework</groupId>
     <artifactId>spring-pet-clinic</artifactId>
-    <version>0.0.2-SNAPSHOT</version>
+    <version>0.0.2</version>
     <modules>
         <module>pet-clinic-data</module>
         <module>pet-clinic-web</module>
@@ -41,6 +41,7 @@
                     <checkModificationExcludes>
                         <checkModificationExclude>pom.xml</checkModificationExclude>
                     </checkModificationExcludes>
+                    <autoVersionSubmodules>true</autoVersionSubmodules>
                 </configuration>
             </plugin>
         </plugins>
@@ -48,7 +49,7 @@
 
     <scm>
         <developerConnection>scm:git:https://github.com/Lumilevy/spring-pet-clinic.git</developerConnection>
-    <tag>spring-pet-clinic-0.0.1</tag>
+    <tag>spring-pet-clinic-0.0.2</tag>
   </scm>
 
 
